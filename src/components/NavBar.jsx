@@ -20,14 +20,6 @@ const NavBar = () => {
           <Nav className="navbar-style">
             <a href="#about" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >¿QUIÉNES SOMOS?</a>
             <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href="#">NUESTRAS MARCAS</Nav.Link>
-            {/* <NavDropdown style={{margin: 'auto 15px'}} className="black-text" title="NUESTRAS MARCAS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#/">Responsive Layout Template</NavDropdown.Item>
-              <NavDropdown.Item href="#/">SaaS Landing Page</NavDropdown.Item>
-              <NavDropdown.Item href="#/">Smart BEM</NavDropdown.Item>
-              <NavDropdown.Item href="#/">Multiple Unique Designs</NavDropdown.Item>
-              <NavDropdown.Item href="#/">Flexible HTML</NavDropdown.Item>
-              <NavDropdown.Item href="#/">User Friendly</NavDropdown.Item>
-            </NavDropdown> */}
             <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href='#/'>PRODUCTOS</Nav.Link>
             <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href='#/'>CATEGORÍAS</Nav.Link>
           </Nav>
@@ -37,4 +29,4 @@ const NavBar = () => {
   )
 }
 
-export default connect(null, null)(NavBar)
+export default NavBar
