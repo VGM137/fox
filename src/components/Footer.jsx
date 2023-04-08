@@ -11,4 +11,4 @@ const Footer = () => {
   )
 }
 
-export default connect(null, null)(Footer)
+export default Footer
