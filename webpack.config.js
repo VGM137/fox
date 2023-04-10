@@ -14,7 +14,7 @@ module.exports= {
     publicPath: '/'
   },
   resolve:{
-    extensions: ['.js', '.ts', '.jsx']
+    extensions: ['.js', '.ts', '.jsx', '.pdf']
   },
   module: {
     rules:[
@@ -50,7 +50,15 @@ module.exports= {
       {
         test: /\.(png|gif|jpg)$/,
         type: 'asset/resource',
-      }
+      },
+      {
+        test: /\.(pdf)$/i,
+        use: [
+          {
+            loader: 'file-loader', // or 'url-loader'
+          },
+        ],
+      },
     ]
   },
   devServer: {

@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 import { connect } from "react-redux";
 import '../assets/styles/Components/NavBar.css'
-import fox from '../assets/img/fox-arrow.png'
+import fox from '../assets/static/img/fox-arrow.png'
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -20,7 +20,7 @@ const NavBar = () => {
           <Nav className="navbar-style">
             <a href="#about" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >¿QUIÉNES SOMOS?</a>
             <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href="#">NUESTRAS MARCAS</Nav.Link>
-            <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href='#/'>PRODUCTOS</Nav.Link>
+            <a href="#products" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >PRODUCTOS</a>
             <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href='#/'>CATEGORÍAS</Nav.Link>
           </Nav>
         </Navbar.Collapse>

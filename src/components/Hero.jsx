@@ -2,8 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import Carousel from "react-bootstrap/Carousel";
 import "../assets/styles/Components/Hero.css";
-import bannerOne from '../assets/img/Banner-One.jpg'
-import bannerTwo from '../assets/img/BannerTwo.jpg'
+import bannerOne from '../assets/static/img/Banner-One.jpg'
+import bannerTwo from '../assets/static/img/BannerTwo.jpg'
 
 
 const Hero = () => {

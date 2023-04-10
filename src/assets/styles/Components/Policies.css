@@ -1,0 +1,40 @@
+.pdf-document{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pdf-document-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  max-width: 1440px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.pdf-page canvas{
+  display: flex!important;
+  width: 800px;
+  height: auto!important;
+  margin: auto!important;
+}
+@media screen and (max-width: 1024px){
+  .pdf-page canvas{
+    width: 800px!important;
+  }
+}
+@media screen and (max-width: 768px){
+  .pdf-page canvas{
+    width: 700px!important;
+  }
+}
+@media screen and (max-width: 425px){
+  .pdf-page canvas{
+    width: 400px!important;
+  }
+}
+@media screen and (max-width: 320px){
+  .pdf-page canvas{
+    width: 300px!important;
+  }
+}
