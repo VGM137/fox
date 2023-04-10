@@ -1,0 +1,20 @@
+.products-container{
+  margin: 50px auto;
+}
+.products-title{
+  width: 100%;
+  height: auto;
+  padding: 25px 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.products-title h2{
+  margin: 0;
+  font-size: 2.5em;
+}
+.products-swipers{
+  width: 100%;
+  margin: 20px auto;
+  max-width: 1440px;
+}

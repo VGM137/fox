@@ -1,14 +1,14 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import '../assets/styles/Components/AboutUs.css'
-import shoeOne from '../assets/img/shoeOne.jpg'
+import shoeOne from '../assets/static/img/shoeOne.jpg'
 
 const AboutUs = () => {
 
   return (
     <div id="about" className='container'>
         <h1 className='title'>¿QUIÉNES SOMOS?</h1>
-        <img class="rounded float-end" src={shoeOne} />
+        {/* <img className="rounded float-end" src={shoeOne} /> */}
         <p className='paragraph'>
           Somos una empresa mexicana dedicada desde 1970, a la fabricación<br/>
           y comercialización de productos de calzado de la marca FOX, de la<br/> más alta calidad.

@@ -1,11 +1,10 @@
 import React from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from '../containers/Home';
-import AboutUs from '../components/AboutUs';
-import Brands from '../components/Brands';
+import Legals from '../containers/Legals';
 import '../assets/styles/App.css';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from '../components/NavBar';
+
 
 const App = () => {
   return (
@@ -13,6 +12,7 @@ const App = () => {
       <BrowserRouter>
       <Routes>
         <Route exact path = '/' element={<Home />}/>
+        <Route exact path = '/politicas' element={<Legals />}/>
       </Routes>
       </BrowserRouter>
     </div>
