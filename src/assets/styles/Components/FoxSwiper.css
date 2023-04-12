@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #FFF;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -81,7 +81,7 @@ body {
   width: calc(var(--swiper-navigation-size)/44*27);
   z-index: 10;
   height: 100%;
-  background: #eeeeee;
+  background: #ffffff;
 }
 .swiper-button-next {
   right: 0;

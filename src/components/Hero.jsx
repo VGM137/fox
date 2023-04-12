@@ -3,8 +3,9 @@ import { connect } from "react-redux";
 import Carousel from "react-bootstrap/Carousel";
 import "../assets/styles/Components/Hero.css";
 import bannerOne from '../assets/static/img/Banner-One.jpg'
-import bannerTwo from '../assets/static/img/BannerTwo.jpg'
-
+import bannerTwo from '../assets/static/img/Banner-Two.jpg'
+import bannerThree from '../assets/static/img/Banner-Three.png'
+import bannerFour from '../assets/static/img/Banner-Four.jpg'
 
 const Hero = () => {
   return (
@@ -13,14 +14,18 @@ const Hero = () => {
         <img className="d-block w-100" src={bannerOne} alt="Banner-One"/>
         <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
-        <img className="d-block w-100" src={bannerTwo} alt="Banner-Two" width="710px" height="533px"/>
+      <Carousel.Item>
+        <img className="d-block w-100" src={bannerTwo} alt="Banner-Two"/>
         <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item> */}
-      {/* <Carousel.Item> */}
-        {/* <img className="d-block w-100" src={bannerOne} alt="Banner-Three"/> */}
-        {/* <Carousel.Caption></Carousel.Caption> */}
-      {/* </Carousel.Item> */}
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={bannerThree} alt="Banner-Three"/>
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={bannerFour} alt="Banner-Four"/>
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 };

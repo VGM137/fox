@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.blog-container h2{
+  width: 100%;
+  height: auto;
+  padding: 25px 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.blog-container h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 540px){
+  html {font-size: 10px;} 
+  .blog-container p{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+}
+
+.blog-container p{
+  margin-top: 50px;
+  font-size: 1.5rem;
+  text-align: justify !important;
+  margin-left: 50px;
+} 
+
+.blog-container img{
+  float: right;
+  width: 50%;
+  padding: 0 15px;
+}
