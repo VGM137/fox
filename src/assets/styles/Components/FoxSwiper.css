@@ -120,9 +120,10 @@ body {
   max-width: 1440px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
   .fox-swipper {
-    width: 425px;
+    max-width: 390px;
+    width: 100%;
   }
   .tshirts .morePadding {
     padding: 10px;

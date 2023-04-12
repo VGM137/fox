@@ -13,6 +13,8 @@ body{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        max-width: 390px;
+        width: 100%;
     }
 }
 
@@ -20,7 +22,8 @@ body{
     margin-top: 50px;
     font-size: 1.5rem;
     text-align: justify !important;
-    margin-left: 50px;
+    margin: 50px auto;
+    width: 90%;
 }
 
 .brands-container img{
