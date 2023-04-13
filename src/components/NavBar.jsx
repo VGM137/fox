@@ -13,15 +13,16 @@ const NavBar = () => {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#/" >
-          <img src={fox} width="280px" height="120px" className="d-inline-block align-top" alt="Fox logo"/>
+          <h1 style={{fontSize:'3em', color: 'red', textAlign: 'justify', marginLeft: '50px' }}>Outlet Store</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
           <Nav className="navbar-style">
+            <img src={fox} width="380px" height="150px" className="d-inline-block align-top" alt="Fox logo"/>
             <a href="#about" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >¿QUIÉNES SOMOS?</a>
-            <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href="#">NUESTRAS MARCAS</Nav.Link>
+            <a href="#brands" style={{margin: 'auto 50px', textDecoration:'none'}} as={Link} >NUESTRAS MARCAS</a>
             <a href="#products" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >PRODUCTOS</a>
-            <Nav.Link style={{margin: 'auto 50px'}} className="black-text" href='#/'>CATEGORÍAS</Nav.Link>
+            <a href="#blog" style={{margin: 'auto 50px', textDecoration:'none'}} as={Link} >CATEGORÍAS</a>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -29,4 +30,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;
