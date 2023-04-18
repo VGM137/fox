@@ -22,9 +22,27 @@ body{
   text-align: center;
   margin-top: 50px;
 }
+#blog div {
+  display: grid;
+  margin: 0 auto 20px;
+  max-width: 500px;
+  border: gray solid 1px;
+  border-radius: 20px;
+  padding: 40px 0 0 0;
+  overflow: hidden;
+}
+.blog-container p {
+  font-size: 1.2rem;
+  font-family: GillSans;
+  margin: 0 auto 50px auto;
+  width: 90%;
+  padding: 0 40px;
+}
+.blog-container div p{
+  max-width: 500px;
+}
 
 @media screen and (max-width: 540px){
-  html {font-size: 10px;} 
   .blog-container p{
     display: flex;
     flex-direction: column-reverse;
@@ -32,19 +50,9 @@ body{
     max-width: 390px;
     width: 100%;
   }
-  
+  #blog div{
+    max-width: 90%;
+  }
 }
 
-.blog-container p{
-  margin-top: 50px;
-  font-size: 1.5rem;
-  text-align: justify !important;
-  margin: 50px auto;
-  width: 90%;
-} 
 
-.blog-container img{
-  float: right;
-  width: 50%;
-  padding: 0 15px;
-}

@@ -1,8 +1,24 @@
 import React from 'react';
 import '../assets/styles/Components/Blog.css'
-import articles from '../assets/static/img/articles.png'
-import mask from '../assets/static/img/mask-2023.png'
+import enduro from '../assets/static/img/enduro.png'
+import newYear from '../assets/static/img/newyear.png'
 import backPacks from '../assets/static/img/backPacks.png'
+import stars from '../assets/static/img/tenis-stars.png'
+import hanging from '../assets/static/img/hanging.png'
+import colors from '../assets/static/img/teniscolors.png'
+import red from '../assets/static/img/tenisrojos.png'
+import truck from '../assets/static/img/truck.png'
+import bannerOne from '../assets/static/img/Banner-One.jpg'
+import bike from '../assets/static/img/bike.png'
+import sapica from '../assets/static/img/sapica.png'
+import casual from '../assets/static/img/casual.png'
+import sport from '../assets/static/img/sport.png'
+import hollyweek from '../assets/static/img/hollyweek.png'
+import heb from '../assets/static/img/HEB.png'
+import holidays from '../assets/static/img/holidays.png'
+import show from '../assets/static/img/show.jpg'
+import mercado from '../assets/static/img/mercado.jpg'
+
 
 
 const Blog = () => {
@@ -10,43 +26,55 @@ const Blog = () => {
     <div id="blog" className='blog-container'>
       <h2>Blog</h2>
       <h1>A través de los años</h1>
-      <p>
-        <img class="img-fluid" src={mask}/>
-        Este año 2023 no puedes perderte los íncreibles<br/> productos
-        que Fox Outlet México tiene para ti.<br/> Ven a visitarnos a 
-        tu distribuidor más cercano, <br/>con íncreibles precios que no te puedes perder.<br/>
-        Productos desde morrales, mochilas,<br/> sneakers, todo para tu excursión<br/> o día 
-        de campo.<br/> Ofreciéndote los mejores modelos de buffs<br/> pasamontañas de este 2023
-      </p>
-      <hr/>
-      <p>
-        <img class="img-fluid" src={backPacks} style={{float: 'left'}}/>
-        En este 2022, gracias a todos ustedes seguimos<br/>
-        avanzando y trabajando. Traemos productos<br/> de la mejor calidad y ahora con más variedad<br/> que nunca.
-        No pierdas de vista nuestras<br/> nuevas backpacks.<br/>
-        Ven a visitarnos este regreso a clases con las<br/> mochilas que tenemos preparadas para ti,
-        con<br/> los mejores diseños y la mejor clase, no te lo pierdas.
-      </p>
-      <hr/>
-      <p>
-        <img class="img-fluid" src={articles}/>
-        Fox Outlet de México, empresa orgullosamente mexicana,<br/>
-        trae materiales de la mejor calidad este 2021<br/> para desarrollar productos de altos estándares.<br/> 
-        Ofrecemos un (Life Style) mediante nuestra gama de vestuario,<br/> calzado y
-        accesorios de la vestimenta tanto para la vida<br/> cotidiana, como para el
-        outdoor.<br/>
-        Hoy más que nunca regresamos equipados para ofrecerte<br/> una alta gama
-        de artículos...
-      </p>
-      <hr/>
-      {/* <img class="img-fluid" src={articles}/> */}
-      <p>
-        Prepárate este 2020 lleno de nuevos productos<br/> y emociones,
-        además de que no puedes perderte<br/> SAPICA, que tendrá acontecimiento en
-        León Guanajuato.<br/>
-        Estaremos muy contentos de recibirte y
-        mostarte todo<br/> nuestro catálogo.
-      </p>
+
+      <div>
+        <p>¿Estos días de descanso por que no relajarnos un poco?, Prepara tus rutas y disfruta de esta semana Santa aprovechando al máximo.</p>
+        <img className="img-fluid" src={hollyweek}/>
+      </div>
+
+      <div>
+        <p>Estamos de vuelta para desearles el mayor de los exitos este 2022 a todos ustedes y les tenemos nuevos productos como siempre con la mejor de intención de atenderlos.</p>
+        <img className="img-fluid" src={newYear}/>
+      </div>
+      <div>
+        <p>Ven a visitarnos este regreso a clases con las mochilas que tenemos preparadas para ti, con los mejores diseños y la mejor clase, no te lo pierdas.</p>
+        <img className="img-fluid" src={heb}/>
+      </div>
+      <div>
+        <p>¿Por qué Fox Outlet de México tiene los mejores productos al mejor precio?, recuerda que por ser una marca 100% orgullosamente mexicana siempre tratamos de dar el mejor servicio a nuestros clientes y llevando el diseño mas adecuado para todos nuestros usuarios, no olvides venir a conocer nuestra nueva linea de ropa outdoor para todos los fanaticos de Fox Outlet.</p>
+        <img className="img-fluid" src={stars}/>
+      </div>
+
+      <div>
+        <p>Estamos listos para arrancar este 2021 con nuestros productos de vestimenta outdoor, presentamos nuestra linea de zapatos FOX, el estilo y calidad nunca se habían visto mejor juntos. Te presentamos la nueva línea de Tenis Fox tipo en cualquier color que busques o también en distintas versiones como, select Arcoiris.</p>
+        <img className="img-fluid" src={casual}/>
+      </div>
+      <div>
+        <p>Nuestros nuevos zapatos linea varial estan aquí para darte a tu alcance la mayor comodidad combinando la moda, diseño y el mejor confort con nuestra suela especial para todos aquellos amantes del deporte.</p>
+        <img className="img-fluid" src={red}/>
+      </div>
+      <div>
+        <p>Nos despedimos muy agradecidos con todos ustedes, esperemos tengan unas excelentes fiestas navideñas y seguimos compartiendo historias junto a todos ustedes.</p>
+        <img className="img-fluid" src={holidays}/>
+      </div>
+      <div>
+        <p>¡FIN de temporada y Fox Outlet lo sabe!, aprovecha descuentos irreales de hasta el 50%, Promociones válidad del 6 al 24 de Abril.</p>
+        <img className="img-fluid" src={show}/>
+      </div>
+      <div>
+        <p>¿Ya viste?, estamos ahora en Mercado Libre, listos para llevarte el producto que estas buscando hasta la puerta de tu casa, no olvides estas promociones que no puedes perderte, estaremos encantados de darte garantía y calidad en todos los productos, desde mochilas, playeras, zapatos, entre otros muchos más.</p>
+        <img className="img-fluid" src={mercado}/>
+      </div>
+
+      <div>
+        <p>Prepárate con este año lleno de nuevos productos y emociones, además de que no puedes perderte SAPICA que tendrá acontecimiento en León Guanajuato, estaremos muy contentos de recibirte y mostarte todo nuestro catalogo. </p>
+        <img className="img-fluid" src={sapica}/>
+      </div>
+      <div>
+        <p>FOX Outlelt de México empresa orgullosamente mexicana trae para ti los materiales de la mejor calidad con los régimenes más altos para deporte de senderismo, motocross, ciclismo de montaña, etc. Hoy más que nunca regresa equipado y disfruta de nuestra alta variedad de productos.</p>
+        <img className="img-fluid" src={sport}/>
+      </div>
+
     </div>
      
   );

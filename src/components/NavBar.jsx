@@ -7,13 +7,15 @@ import { connect } from "react-redux";
 import '../assets/styles/Components/NavBar.css'
 import fox from '../assets/static/img/fox-arrow.png'
 import { Link } from "react-router-dom";
+import logo from '../assets/static/img/foxsquare.png'
 
 const NavBar = () => {
   return (
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#/" >
-          <h1 style={{fontSize:'3em', color: 'red', textAlign: 'justify', marginLeft: '50px' }}>Outlet Store</h1>
+          <img src={logo} width={'70px'} alt="Logo FOX" />
+          <h1 style={{fontSize:'3em', color: 'black' }}>Outlet Store</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
