@@ -9,8 +9,8 @@ const Brands = () => {
   return (
     <div id="brands" className="brands-container">
       <div>
-        <img className="img-fluid" src={logos}/>
-        <img className="img-fluid" src={allbrands}/>
+        <img loading='lazy' className="img-fluid" src={logos}/>
+        <img loading='lazy' className="img-fluid" src={allbrands}/>
       </div>
       <div>
         <h1>Nuestras Marcas</h1>

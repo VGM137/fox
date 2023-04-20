@@ -11,19 +11,19 @@ const Hero = () => {
   return (
     <Carousel fade>
       <Carousel.Item>
-        <img className="d-block w-100" src={bannerOne} alt="Banner-One"/>
+        <img loading='lazy' className="d-block w-100" src={bannerOne} alt="Banner-One"/>
         <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={bannerTwo} alt="Banner-Two"/>
+        <img loading='lazy' className="d-block w-100" src={bannerTwo} alt="Banner-Two"/>
         <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={bannerThree} alt="Banner-Three"/>
+        <img loading='lazy' className="d-block w-100" src={bannerThree} alt="Banner-Three"/>
         <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={bannerFour} alt="Banner-Four"/>
+        <img loading='lazy' className="d-block w-100" src={bannerFour} alt="Banner-Four"/>
         <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
     </Carousel>
