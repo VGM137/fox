@@ -103,12 +103,6 @@ body {
 .morePadding{
   padding: 15px;
 }
-
-@media screen and (min-width: 1024px) {
-  .morePadding{
-    padding: 40px;
-  }
-}
 .swipper-title {
   margin: 0 0 0 50px;
 }
@@ -117,9 +111,15 @@ body {
 }
 
 .fox-swipper {
+  width: 100%;
   max-width: 1440px;
 }
 
+@media screen and (min-width: 1024px) {
+  .morePadding{
+    padding: 40px;
+  }
+}
 @media screen and (max-width: 540px) {
   .fox-swipper {
     max-width: 390px;

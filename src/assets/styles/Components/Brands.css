@@ -7,27 +7,36 @@ body{
     margin: 0;
 }
 
+div#brands {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 30px;
+  padding: 50px 0;
+}
+div#brands img{
+  margin: auto;
+  width: 90%;
+
+}
+.brands-container div{
+  font-size: 1rem;
+  width: 90%;
+  margin: auto;
+}
+div#brands p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
 @media screen and (max-width: 540px){
-    html {font-size: 10px;} 
-    .brands-container{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        max-width: 390px;
-        width: 100%;
+    div#brands {
+      display: flex;
+      flex-direction: column-reverse;
     }
+    .brands-container div{
+      font-size: 1.5rem;
+      width: 90%;
+    }
+
 }
 
-.brands-container p{
-    margin-top: 50px;
-    font-size: 1.5rem;
-    text-align: justify !important;
-    margin: 50px auto;
-    width: 90%;
-}
-
-.brands-container img{
-    float: left;
-    width: 50%;
-    padding: 0 15px;
-}

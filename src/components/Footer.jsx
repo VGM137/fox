@@ -3,13 +3,14 @@ import { connect } from 'react-redux'
 import '../assets/styles/Components/Footer.css'
 import wa from '../assets/static/img/whatsapp.png'
 import mail from '../assets/static/img/mail.png'
+import fox from '../assets/static/img/fox-blanco.png'
 
 const Footer = () => {
 
   return (
     <div className='footer-container'>
       <div className='footer-logo'>
-
+        <img src={fox} alt='logo fox' />
       </div>
       <div className='footer-contact'>
         <h5>Contacto</h5>
@@ -43,6 +44,9 @@ const Footer = () => {
         <ul>
           <li><a href='/politicas'>NOTICE OF PRIVACY</a></li>
         </ul>
+      </div>
+      <div>
+        <p className='footer-powered' >Powered by Web And Code</p>
       </div>
     </div>
   )
