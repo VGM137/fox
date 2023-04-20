@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <div className='footer-logo'>
-        <img src={fox} alt='logo fox' />
+        <img loading='lazy' src={fox} alt='logo fox' />
       </div>
       <div className='footer-contact'>
         <h5>Contacto</h5>
@@ -21,11 +21,11 @@ const Footer = () => {
           <li>COL: PREDIO DE SANTA ANITA</li>
           <li>CP: 37295</li>
           <li>
-            <img src={wa} alt='whatsapp' />
+            <img loading='lazy' src={wa} alt='whatsapp' />
             <p>477 - 761 - 19 - 71</p>
           </li>
           <li>
-            <img src={mail} alt='e-mail' />
+            <img loading='lazy' src={mail} alt='e-mail' />
             <p>urban.outdoor.outlets@gmail.com</p>
           </li>
         </ul>

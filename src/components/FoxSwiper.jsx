@@ -120,15 +120,15 @@ export default function FoxSwiper({title, folder}) {
       >
       {Object.keys(images).map((imageName, index) => (
         <SwiperSlide onMouseLeave={e => handleBlur(e)} onClick={e => handleClick(e)} style={{height: elHeight}} className={needsMorePadding && 'morePadding'} key={`${folder}-${index}-swiper`}>
-          <img className="swiper-img" key={`${folder}-${index}-image`} src={images[imageName]} alt={imageName} />
+          <img loading='lazy' className="swiper-img" key={`${folder}-${index}-image`} src={images[imageName]} alt={imageName} />
           {folder === 'hats' &&
-            <img className="swiper-back-img" key={`${folder}-${index}-image-hat`} src={stamp} alt={imageName} />
+            <img loading='lazy' className="swiper-back-img" key={`${folder}-${index}-image-hat`} src={stamp} alt={imageName} />
           }
           {Object.keys(hiddenImages).map((image, ii) => {
             let backImage = image.split('-', 1).join('')
             if(imageName.includes(backImage)) {
               return(
-                <img className="swiper-back-img" style={{padding: '0'}} key={`${folder}-${ii}-image-back`} src={hiddenImages[image]} alt={image} />
+                <img loading='lazy' className="swiper-back-img" style={{padding: '0'}} key={`${folder}-${ii}-image-back`} src={hiddenImages[image]} alt={image} />
               )
             }
         })}
