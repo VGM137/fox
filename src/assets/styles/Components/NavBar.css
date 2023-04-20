@@ -12,14 +12,14 @@
 .navbar-expand-lg{
   flex-wrap: wrap;
 }
-.navbar-brand{
+.nav-header{
   display: flex;
   align-items: center;
   width: 75%;
   justify-content: center;
   margin-bottom: 15px;
 }
-.navbar-brand h1{
+.nav-header h1{
   font-size: 3em!important;
   line-height: 45px;
   margin: 0 10px;
@@ -31,19 +31,19 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .navbar-brand{
+  .nav-header{
     justify-content: left;
     margin-bottom: 0;
   }
-  .navbar-brand h1{
+  .nav-header h1{
     font-size: 2.5em!important;
   }
 }
 @media screen and (max-width: 540px) {
-  .navbar-brand{
+  .nav-header{
     justify-content: space-around;
   }
-  .navbar-brand h1{
+  .nav-header h1{
     margin: 0;
   }
 }

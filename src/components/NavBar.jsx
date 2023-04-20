@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#/" >
+        <Navbar.Brand href="/" className="nav-header" >
           <img src={logo} width={'70px'} alt="Logo FOX" />
           <h1 style={{fontSize:'3em', color: 'black' }}>Outlet Store</h1>
         </Navbar.Brand>
@@ -21,10 +21,10 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
           <Nav className="navbar-style">
             <img src={fox} width="380px" height="150px" className="d-inline-block align-top" alt="Fox logo"/>
-            <a href="#about" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >¿QUIÉNES SOMOS?</a>
-            <a href="#brands" style={{margin: 'auto 50px', textDecoration:'none'}} as={Link} >NUESTRAS MARCAS</a>
-            <a href="#products" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >PRODUCTOS</a>
-            <a href="#blog" style={{margin: 'auto 50px', textDecoration:'none'}} as={Link} >CATEGORÍAS</a>
+            <a href="/#about" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >¿QUIÉNES SOMOS?</a>
+            <a href="/#brands" style={{margin: 'auto 50px', textDecoration:'none'}} as={Link} >NUESTRAS MARCAS</a>
+            <a href="/#products" style={{margin: 'auto 50px', textDecoration:'none'}}  as={Link} >PRODUCTOS</a>
+            <a href="/#blog" style={{margin: 'auto 50px', textDecoration:'none'}} as={Link} >CATEGORÍAS</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

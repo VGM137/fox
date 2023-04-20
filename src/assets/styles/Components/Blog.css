@@ -22,6 +22,15 @@ body{
   text-align: center;
   margin-top: 50px;
 }
+.blog-container a{
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-family: Bebas Neue;
+}
 #blog div {
   display: grid;
   margin: 0 auto 20px;
@@ -31,6 +40,9 @@ body{
   padding: 40px 0 0 0;
   overflow: hidden;
 }
+.heb{
+  margin-bottom: 20px!important;
+}
 .blog-container p {
   font-size: 1.2rem;
   font-family: GillSans;
@@ -38,9 +50,24 @@ body{
   width: 90%;
   padding: 0 40px;
 }
+.blog-container p span {
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 0!important;
+}
+.blog-container span {
+  font-size: 1.2rem;
+  font-family: GillSans;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .blog-container div p{
   max-width: 500px;
 }
+
 
 @media screen and (max-width: 540px){
   .blog-container p{

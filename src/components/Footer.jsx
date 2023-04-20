@@ -45,6 +45,9 @@ const Footer = () => {
           <li><a href='/politicas'>NOTICE OF PRIVACY</a></li>
         </ul>
       </div>
+      <div>
+        <p className='footer-powered' >Powered by Web And Code</p>
+      </div>
     </div>
   )
 }

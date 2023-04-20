@@ -16,7 +16,7 @@
 .footer-logo img{
   height: auto;
   width: 100%;
-  margin: 0 10px 0 0;
+  margin: 0 10px 30px 0;
 }
 .footer-container h5 {
   text-transform: uppercase;
@@ -38,6 +38,10 @@
   height: 30px;
   filter: invert();
   margin: 0 10px 0 0;
+}
+.footer-powered{
+  text-align: center;
+  margin: 30px 0 0;
 }
 @media screen and (max-width: 768px) {
   .footer-container {
