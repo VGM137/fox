@@ -11,7 +11,7 @@ import heb from '../assets/static/img/heb.png'
 import holidays from '../assets/static/img/holidays.png'
 import show from '../assets/static/img/show.jpg'
 import mercado from '../assets/static/img/mercado.jpg'
-import zapatoFox from '../assets/static/img/zapatofox.jpg'
+import zapatoFox from '../assets/static/img/msi.png'
 import invitacion from '../assets/static/img/invitacion2019.jpg'
 import foxbrands from '../assets/static/img/foxbrands.jpg'
 import f from '../assets/static/img/f.jpg'
@@ -20,6 +20,7 @@ import claro2018 from '../assets/static/img/claro2018.jpg'
 import claro2017 from '../assets/static/img/claro2017.jpg'
 import buenfin2017 from '../assets/static/img/buenfin2017.jpg'
 import gorras from '../assets/static/img/gorras.jpg'
+import littleStars from '../assets/static/img/estrellitas.png'
 
 
 
@@ -39,6 +40,10 @@ const Blog = () => {
       <div>
         <p>Estamos de vuelta para desearles el mayor de los exitos este 2022 a todos ustedes y les tenemos nuevos productos como siempre con la mejor de intención de atenderlos.</p>
         <img loading='lazy' className="img-fluid" src={newYear}/>
+      </div>
+      <div>
+        <p>Cómodo, bonito y barato.<br /> Modelo ESTRELLITAS ¿como te verías con uno de estos? <br />#tenis #tenisparamujer #tenisparahombre #foxmr #tenisfox #beclever #marcandoestilos</p>
+        <img loading='lazy' className="img-fluid" src={littleStars}/>
       </div>
       <div>
         <p className='heb'>Ven a visitarnos este regreso a clases con las mochilas que tenemos preparadas para ti, con los mejores diseños y la mejor clase, no te lo pierdas.</p>

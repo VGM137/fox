@@ -18,6 +18,7 @@ const Products = () => {
         <FoxSwiper title={'Sandalias'} folder={'sandals'} />
         <FoxSwiper title={'Shorts'} folder={'shorts'} />
         <FoxSwiper title={'Playeras'} folder={'tshirts'} />
+        <FoxSwiper title={'Calzado casual'} folder={'casual'} />
       </div>
     </div>
   );
